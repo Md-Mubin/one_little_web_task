@@ -11,7 +11,7 @@ const GetInTouch = () => {
                     <p className="mt-2 font-normal text-lg text-[#9C9C9C] leading-7">Can't find the answer you're looking for? Please chat to our friendly team.</p>
                 </div>
                 <div className="flex justify-center">
-                    <button className="text-sm font-bold py-4.5 px-5.5 bg-brandColor text-white rounded-[5px] leading-[100%]">
+                    <button className="text-sm font-bold py-4.5 px-5.5 bg-brandColor text-white rounded-[5px] leading-[100%] cursor-pointer">
                         Get In Touch
                     </button>
                 </div>

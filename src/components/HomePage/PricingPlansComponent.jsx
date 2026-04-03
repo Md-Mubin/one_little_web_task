@@ -90,7 +90,7 @@ const PricingPlansComponent = () => {
                                 ${plan.price}
                                 <span className={`font-light text-[16px] ${plan.highlight ? "text-white" : "text-[#4B5768]"}`}> / Month</span>
                             </h3>
-                            <button className={`mt-8.75 w-full py-2.75 rounded text-brandColor font-manrope font-semibold text-[16px] ${plan.highlight
+                            <button className={`mt-8.75 w-full py-2.75 rounded text-brandColor font-manrope font-semibold text-[16px] cursor-pointer ${plan.highlight
                                 ? "bg-white "
                                 : "border border-brandColor"
                                 }`}

@@ -26,7 +26,7 @@ const Navbar = () => {
                                 ))
                             }
                         </ul>
-                        <button className="text-sm font-bold py-4.5 px-5.5 bg-brandColor text-white rounded-[5px] leading-[100%]">Schedule A Meeting </button>
+                        <button className="text-sm font-bold py-4.5 px-5.5 bg-brandColor text-white rounded-[5px] leading-[100%] cursor-pointer">Schedule A Meeting </button>
                     </div>
                 </div>
             </nav>

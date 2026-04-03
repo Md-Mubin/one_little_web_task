@@ -42,7 +42,7 @@ const WhyChooseUsComponent = () => {
                                 ))
                             }
                         </ul>
-                        <button className="text-sm font-bold py-4.5 px-5.5 bg-brandColor text-white rounded-[5px] leading-[100%] flex item-center gap-2.5">
+                        <button className="text-sm font-bold py-4.5 px-5.5 bg-brandColor text-white rounded-[5px] leading-[100%] flex item-center gap-2.5 cursor-pointer ">
                             Schedule A Meeting <ArrowRight size={16} />
                         </button>
                     </div>
