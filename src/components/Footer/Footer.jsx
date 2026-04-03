@@ -20,7 +20,7 @@ const Footer = () => {
               <Link href="#"><FaGithub size={20} /></Link>
             </div>
           </div>
-          <div className="sm:grid sm:grid-cols-3 max-w-157.5">
+          <div className="sm:grid sm:grid-cols-3 lg:w-157.5">
             {/* Company Links */}
             <div>
               <h3 className="text-sm font-bold uppercase tracking-wider mb-6 text-gray-900">Company</h3>
