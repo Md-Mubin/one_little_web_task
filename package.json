@@ -9,9 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@szhsin/react-accordion": "^1.4.1",
+    "keen-slider": "^6.8.6",
+    "lucide-react": "^1.7.0",
     "next": "16.2.2",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-fast-marquee": "^1.6.5",
+    "react-icons": "^5.6.0",
+    "react-slick": "^0.31.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
