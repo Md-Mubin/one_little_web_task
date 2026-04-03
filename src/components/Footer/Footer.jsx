@@ -55,7 +55,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       {/* Copyright Bar */}
       <div className="bg-[#230B41] pt-4.5 pb-6.75 text-center font-poppins font-normal text-sm leading-5.5 text-white">
         © Copyright 2024, All Rights Reserved by XYz

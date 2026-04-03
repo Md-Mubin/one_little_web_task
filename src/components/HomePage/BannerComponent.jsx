@@ -5,6 +5,7 @@ const BannerComponent = () => {
   return (
     <section className="bg-[url('/banner_bg.png')] w-full h-180 lg:h-146 pt-25 font-dm_sans">
       <div className="container relative">
+        {/* images */}
         <img
           src="banner_vectors.png"
           alt="image"
@@ -13,6 +14,7 @@ const BannerComponent = () => {
           src="banner_vectors2.png"
           alt="image"
           className="absolute top-0 left-0 w-full" />
+        {/* banner start */}
         <div className="absolute top-18 left-[50%] translate-x-[-50%] text-center">
           <h1 className="font-bold text-5xl">Airbnb Assistants For</h1>
           <h2 className="font-medium text-[38px]">Property Management</h2>

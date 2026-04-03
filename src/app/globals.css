@@ -4,7 +4,12 @@
   --background: #ffffff;
 }
 
+body {
+  background: var(--background);
+}
+
 @theme inline {
+  /* fonts */
   --font-dm_sans: var(--font-dm-sans);
   --font-manrope: var(--font-manrope);
   --font-poppins: var(--font-poppins);
@@ -17,10 +22,7 @@
   --color-serviceCardHeading: #1E1E1E;
 }
 
-body {
-  background: var(--background);
-}
-
+/* for global container */
 @utility container {
   padding-inline: 10px;
   margin-inline: auto;
@@ -31,6 +33,7 @@ body {
   }
 }
 
+/* for nav items animation */
 .navItems {
   @apply inline-block relative;
   background-image: linear-gradient(to right, #ED3C6A 100%, #ED3C6A 100%);

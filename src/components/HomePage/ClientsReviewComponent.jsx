@@ -12,42 +12,36 @@ const ClientsReviewComponent = () => {
             img: "/clientImages/img1.png",
             name: "Jenny Wilson",
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            rate: 4
         },
         {
             id: 2,
             img: "/clientImages/img2.png",
             name: "Esther Howard",
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            rate: 4
         },
         {
             id: 3,
             img: "/clientImages/img3.png",
             name: "Robert Fox",
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            rate: 4
         },
         {
             id: 4,
             img: "/clientImages/img1.png",
             name: "Jenny Wilson",
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            rate: 4
         },
         {
             id: 5,
             img: "/clientImages/img2.png",
             name: "Esther Howard",
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            rate: 4
         },
         {
             id: 6,
             img: "/clientImages/img3.png",
             name: "Robert Fox",
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            rate: 4
         }
     ]
     const [sliderRef] = useKeenSlider({

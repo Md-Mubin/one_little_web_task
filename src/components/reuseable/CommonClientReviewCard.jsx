@@ -1,4 +1,5 @@
 import { Star } from "lucide-react"
+import { FaStar } from "react-icons/fa"
 
 const CommonClientReviewCard = ({ clientImage, clientName, clientReview }) => {
     return (
@@ -16,8 +17,11 @@ const CommonClientReviewCard = ({ clientImage, clientName, clientReview }) => {
                 <li className="mt-1.25 mb-3 max-w-80.25 font-medium text-sm text-black">
                     {clientReview}
                 </li>
-                <li>
-                    <Star/>
+                <li className="flex items-center gap-0.75 text-[#FF9D00]">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
                 </li>
             </ul>
         </div>
